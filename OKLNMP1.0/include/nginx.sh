@@ -50,4 +50,6 @@ open_basedir=/home/wwwroot/default:/tmp/:/proc/
 EOF
     chmod 644 /home/wwwroot/default/.user.ini
     chattr +i /home/wwwroot/default/.user.ini
+    \cp init.d/init.d.nginx /etc/init.d/nginx
+    chmod +x /etc/init.d/nginx
 }
