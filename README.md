@@ -1,5 +1,5 @@
 # OKLNMP
-> one key to install LNMP.
+one key to install LNMP.
 
 ## 2016年2月1日 OKLNMP 1.0
 一键式安装LNMP；
