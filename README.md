@@ -1,6 +1,6 @@
-# OKLNMP
+## OKLNMP
 
-## OKLNMP1.2 2016年2月5日
+### OKLNMP1.2 2016年2月5日
 
 新增Xcache memcached ionCube第三方组件；
 
@@ -12,11 +12,11 @@ Autoconf版本提升为2.61；
 
 优化已有代码。
 
-## OKLNMP1.1 2016年2月2日
+### OKLNMP1.1 2016年2月2日
 
 新增bz2,imap,wddx,calendar等php模块。
 
-## OKLNMP 1.0 2016年2月1日 
+### OKLNMP 1.0 2016年2月1日 
 
 一键式安装LNMP；
 
@@ -35,23 +35,23 @@ Autoconf版本提升为2.61；
 
 OKLNMP一键安装包是在LNMP(Nginx/MySQL/PHP)的基础上，定制化的提供特定配置的生产环境，真正的一键式安装程序。
 
-## 要求配置：
+### 要求配置：
 
 + CentOS 6 64位系统
 
-### 包含：
+#### 包含：
 
 + PHP5.4
 + MySQL5.5
 + Nginx1.8
  
-### 组件：
+#### 组件：
 
 + JeMalloc,ZendGuardLoader,Pureftpd,XCache,Memcached,ionCube
 
 + 并在LNMP原基础上添加了常用的PHP模块。
 
-#### 作者：Uni9K1ng
+##### 作者：Uni9K1ng
 
 > LNMP是什么？
 ---------------------
@@ -60,10 +60,11 @@ LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora
 
 #### LNMP官网：http://lnmp.org
 
-#### 作者: licess <admin@lnmp.org>
+##### 作者: licess <admin@lnmp.org>
 
 > 安装
 ————
+
 ./install.sh
 
 + 安装前建议使用screen，执行：screen -S lnmp
@@ -103,7 +104,7 @@ LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora
 > LNMP相关目录文件
 ————————————————
 
-### 目录位置
+#### 目录位置
 + Nginx：/usr/local/nginx/
 + MySQL：/usr/local/mysql/
 + PHP：/usr/local/php/
@@ -111,7 +112,7 @@ LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora
 + 默认虚拟主机网站目录：/home/wwwroot/default/
 + Nginx日志目录：/home/wwwlogs/
 
-### 配置文件：
+#### 配置文件：
 + Nginx主配置文件：/usr/local/nginx/conf/nginx.conf
 + MySQL/MariaDB配置文件：/etc/my.cnf
 + PHP配置文件：/usr/local/php/etc/php.ini
