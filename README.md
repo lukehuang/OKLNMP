@@ -1,34 +1,34 @@
-## OKLNMP
+# OKLNMP
 
 ### OKLNMP1.2 2016年2月5日
 
-新增Xcache memcached ionCube第三方组件；
++ 新增Xcache memcached ionCube第三方组件；
 
-新增Pureftpd；
++ 新增Pureftpd；
 
-Autoconf版本提升为2.61；
++ Autoconf版本提升为2.61；
 
-删除多余代码；
++ 删除多余代码；
 
-优化已有代码。
++ 优化已有代码。
 
 ### OKLNMP1.1 2016年2月2日
 
-新增bz2,imap,wddx,calendar等php模块。
++ 新增bz2,imap,wddx,calendar等php模块。
 
 ### OKLNMP 1.0 2016年2月1日 
 
-一键式安装LNMP；
++ 一键式安装LNMP；
 
-由LNMP1.2修改而来；
++ 由LNMP1.2修改而来；
 
-新手站长再也不用为环境搭配的问题而烦恼了；
++ 新手站长再也不用为环境搭配的问题而烦恼了；
 
-一键安装默认配置；
++ 一键安装配置环境；
 
-优化安装脚本；
++ 优化安装脚本；
 
-删除多余内容；
++ 删除多余内容；
 
 > OKLNMP是什么？
 ---------------------
