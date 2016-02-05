@@ -34,6 +34,7 @@ Autoconf版本提升为2.61；
 ---------------------
 
 OKLNMP一键安装包是在LNMP(Nginx/MySQL/PHP)的基础上，定制化的提供特定配置的生产环境，真正的一键式安装程序。
+
 ## 要求配置：
 
 + CentOS 6 64位系统
@@ -46,14 +47,14 @@ OKLNMP一键安装包是在LNMP(Nginx/MySQL/PHP)的基础上，定制化的提�
  
 ### 组件：
 
-JeMalloc,ZendGuardLoader,Pureftpd,XCache,Memcached,ionCube
++ JeMalloc,ZendGuardLoader,Pureftpd,XCache,Memcached,ionCube
 
-并在LNMP原基础上添加了常用的PHP模块。
++ 并在LNMP原基础上添加了常用的PHP模块。
 
 #### 作者：Uni9K1ng
 
-> LNMP一键安装包是什么?
-—————————————————————
+> LNMP是什么？
+---------------------
 
 LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora、Debian/Ubuntu/Raspbian VPS(VDS)或独立主机安装LNMP(Nginx/MySQL/PHP)、LNMPA(Nginx/MySQL/PHP/Apache)、LAMP(Apache/MySQL/PHP)生产环境的Shell程序。同时提供一些实用的辅助工具如：虚拟主机管理、FTP用户管理、Nginx、MySQL/MariaDB、PHP的升级、常用缓存组件的安装、重置MySQL root密码、502自动重启、日志切割、SSH防护DenyHosts/Fail2Ban、备份等许多实用脚本。
 
