@@ -32,6 +32,7 @@ Autoconf版本提升为2.61；
 
 > OKLNMP是什么？
 ---------------------
+
 OKLNMP一键安装包是在LNMP(Nginx/MySQL/PHP)的基础上，定制化的提供特定配置的生产环境，真正的一键式安装程序。
 ## 要求配置：
 + CentOS 6 64位系统
@@ -80,12 +81,14 @@ FTP服务器：http://yourIP/ftp/ 进行管理，也可使用lnmp ftp {add|list|
 
 > 虚拟主机管理
 ————————————
+
 + 添加：lnmp vhost add
 + 删除：lnmp vhost del
 + 列出：lnmp vhost list
 
 > 相关图形界面
 ————————————
+
 + PHPMyAdmin：http://yourIP/phpmyadmin/
 + phpinfo：http://yourIP/phpinfo.php
 + PHP探针：http://yourIP/p.php
@@ -95,6 +98,7 @@ FTP服务器：http://yourIP/ftp/ 进行管理，也可使用lnmp ftp {add|list|
 
 > LNMP相关目录文件
 ————————————————
+
 ### 目录位置
 + Nginx：/usr/local/nginx/
 + MySQL：/usr/local/mysql/
