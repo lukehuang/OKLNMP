@@ -1,0 +1,31 @@
+更新记录
+
+OKLNMP1.2 2016年2月5日
+
+新增Xcache memcached ionCube第三方组件；
+新增Pureftpd；
+Autoconf版本提升为2.61；
+删除多余代码；
+优化已有代码。
+
+OKLNMP1.1 2016年2月2日
+
+新增bz2模块；
+优化安装ZendGuardLoader脚本；
+优化卸载脚本。
+
+OKLNMP 1.0 2016年2月1日
+
+一键式安装LNMP；
+由LNMP1.2修改而来；
+新手站长再也不用为环境搭配的问题而烦恼了；
+一键安装默认配置；
+优化安装脚本；
+删除多余内容；
+初版配置：
+MySQL 5.5.42
+PHP 5.4.41
+Nginx 1.8.0
+Jemalloc 3.6.0
+phpMyAdmin 4.4.7
+Zend Guard Loader 6.0.0
