@@ -61,7 +61,6 @@ LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora
 #### LNMP官网：http://lnmp.org
 
 #### 作者: licess <admin@lnmp.org>
---------------------------------------------------------------------------------
 
 > 安装
 ————
@@ -100,7 +99,6 @@ LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora
 + PHP探针：http://yourIP/p.php
 + PureFtp用户管理：http://yourIP/ftp/
 + Xcache管理界面：http://yourIP/xcache/
-+ Zend Opcache管理界面：http://yourIP/ocp.php
 
 > LNMP相关目录文件
 ————————————————
