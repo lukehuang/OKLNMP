@@ -3,7 +3,7 @@
 Dispaly_Selection()
 {
 #do you want to enable or disable the InnoDB Storage Engine?
-    InstallInnodb="y"
+    InstallInnodb="n"
 
 #which MySQL Version do you want to install?
     echo "==========================="
