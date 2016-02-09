@@ -50,12 +50,7 @@ Install_MySQL_55()
 
     \cp support-files/my-medium.cnf /etc/my.cnf
     sed '/skip-external-locking/i\datadir = /usr/local/mysql/var' -i /etc/my.cnf
-    if [ "${InstallInnodb}" = "y" ]; then
-    sed -i 's:#innodb:innodb:g' /etc/my.cnf
-    sed -i 's:/usr/local/mysql/data:/usr/local/mysql/var:g' /etc/my.cnf
-    else
     sed '/skip-external-locking/i\default-storage-engine=MyISAM\nloose-skip-innodb' -i /etc/my.cnf
-    fi
 
     /usr/local/mysql/scripts/mysql_install_db --defaults-file=/etc/my.cnf --basedir=/usr/local/mysql --datadir=/usr/local/mysql/var --user=mysql
     chown -R mysql /usr/local/mysql/var
